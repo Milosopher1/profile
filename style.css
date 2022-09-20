@@ -1,0 +1,79 @@
+body {
+  background-color:rgb(63, 52, 151);
+  background-image:
+  radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 50%, hsla(5,95%,60%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 50%, hsla(333,100%,44%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 100%, hsla(217,47%,39%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  margin-top: 10%;
+  height: auto;
+  max-width: 100px;
+
+  border-radius: 50%;
+}
+
+
+
+
+a {
+  display: block;
+  max-width: 400px;
+  font-size: 0.85rem;
+  color: white;
+  border: 2px solid white;
+  margin: 0 auto 15px auto;
+  padding: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover {
+
+color: black;
+background-color: white;
+
+}
+
+h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+/* .channels {
+  display: flex;
+  text-align: center;
+
+  a:channels {
+      flex: 1;
+      padding: 5px 10px;
+      margin-right: 10px;
+
+      &:last-child {
+       margin-right: 0px;
+      }
+  }
+
+} */
